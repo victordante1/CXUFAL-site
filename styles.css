@@ -66,6 +66,7 @@
     margin:0;
     color:#1c1f22;
     letter-spacing:-0.01em;
+    font
   }
   h3 {
     font-family:'Fraunces', Georgia, serif;
@@ -89,18 +90,29 @@
   .section-head{max-width:640px; margin-bottom:48px;}
   .section-head h2{font-size:clamp(1.8rem, 3.2vw, 2.6rem); line-height:1.15;}
   .section-head p{margin-top:14px; color:var(--text-muted); font-size:1.05rem; max-width:52ch;}
-  .btn{
+  .btn-ptc{
     display:inline-flex; align-items:center; gap:8px;
     padding:13px 24px;
-    background:#0d0f11;
-    color:var(--on-ink);
+    background:#000000;
+    color:#ffffff;
     font-size:0.95rem; font-weight:600;
     border-radius:5px;
     cursor:pointer;
     transition:transform .15s ease, background .2s ease;
   }
-  .btn:hover{background:#3c99f0; border-color:var(--accent); transform:translateY(-1px);}
-  .btn.outline{background:#0d0f11; color:#fff; border-color:var(--ink-soft);}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:13px 24px;
+    background:#ffffff;
+    color:#000000;
+    font-size:0.95rem; font-weight:600;
+    border-radius:5px;
+    cursor:pointer;
+    transition:transform .15s ease, background .2s ease;
+  }
+  .btn-ptc:hover{background:#3c99f0; border-color:var(--accent); transform:translateY(-1px); color: #ffffff;}
+  .btn:hover{background:#3c99f0; border-color:var(--accent); transform:translateY(-1px); color: #ffffff;}
+  .btn.outline{background:#ffffff; color:#000000; border-color:var(--ink-soft);}
   .btn.outline:hover{background:#3c99f0; color:var(--on-ink); border-color:var(--ink);}
   :root[data-theme="dark"] .btn.outline, @media (prefers-color-scheme:dark){}
 
@@ -121,7 +133,7 @@
   width: 100vw;
   transform: translateX(-50%);
 
-  background-color: #f2f0e8;
+  background-color: #ffffff;
 
   z-index: -1;
 }
