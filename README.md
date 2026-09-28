@@ -1,1 +1,1 @@
-*Página oficial do CXUFAL*
+*Página oficial do CXUFAL (Clube de Xadrez da UFAL)*
